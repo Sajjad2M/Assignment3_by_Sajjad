@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>         
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'reader': '#FF4240',
+            'blak': '#131318',
+          }
+        }
+      }
+    }
+  </script>       
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <style>
+      .manrope{
+        font-family: "Manrope", sans-serif;
+
+      }
+    
+  </style>              
+</head>
+<!-- ------------------------------------ -->
+<body class="manrope   h-auto  border border-red-500 lg:mx-20 lg:relative">
+
+  <nav class="mx-5  lg:mt-12 mt-3 ">
+    <div class=" flex justify-between  ">
+      <div class="">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+     
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <!-- ----- -->
+        <a class=" btn btn-ghost  text-2xl lg:text-4xl font-extrabold text-[#131318]">Hockey s</a>
+        <p class="text-[#FF4240] text-2xl lg:text-4xl font-extrabold absolute top-[23px] left-[181.5px] lg:top-[52px] lg:left-[288px]">’</p>
+      </div>
+      
+      <!-- ---------------------------- -->
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 text-[#424247] font-normal text-[16px]">
+          <li><a class="text-reader">Home</a></li>
+     
+          <li><a>About</a></li>
+          <li><a>Pages</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="lg:flex">
+        <img src="Images/icons8-search-50.png" alt="" class="w-6 h-6 mt-4 mr-4 hidden lg:block">
+       
+        <a class="btn bg-reader text-[#FFFFFF] w-[124px] h-10 lg:w-[147px] lg:h-[57px] border-none font-bold lg:text-xl text-[18px] rounded-[8px]">Get Ticket</a>
+      </div>
+    </div>
+
+  </nav>
+  <!-- ---------------------- -->
+  <main class="lg:mt-12 mt-6 lg:mx-[135px] mx-5">
+    <div class="carousel w-[335px] lg:w-full lg:h-[550px] min-h-[200px] lg:rounded-2xl rounded-[12px] lg:relative">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img src="Images/1.png" class="w-full" />
+        <div class="absolute flex transform -translate-y-1/2 lg:left-5 lg:right-[1042px] lg:top-[478px] left-[120px] gap-1 lg:gap-3 top-[170px] ">
+          <a href="#slide2" class="btn btn-circle bg-black text-white h-2">❮</a> 
+          <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+        </div>
+      </div> 
+      <div id="slide2" class="carousel-item relative w-full">
+        <img src="Images/2.png" class="w-full" />
+        <div class="absolute flex transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" class="btn btn-circle">❮</a> 
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+
+    
+    </div>
+    <!-- ------- -->
+    <div class="bg-[#131318] lg:w-[566px] lg:h-[165px] lg:absolute lg:top-[510px] lg:p-8 p-4 w-[335px] h-[137px] rounded-xl text-[#FFFFFF] mt-4 lg:mt-0  lg:left-[707px]">
+      <h1 class="lg:font-extrabold font-bold text-[18px] lg:text-2xl ">Meet all the heroes from the field</h1>
+      <p class="font-medium pt-2 lg:pt-4 text-[14px] lg:text-[16px]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+    </div>
+    
+
+
+  </main>
+  <!-- ----------*5*--*5-*5-*5-------------------------- -->
+  <section class="lg:mt-[100px] mt-10 text-center">
+    <hr class=" border-t-[#13131833] border-dashed mx-5 lg:mx-[135px]">
+    <div class="ml-[42px]">
+      <h1 class="text-[#131318] lg:first:text-4xl font-extrabold lg:mt-[32.5px] text-[22px] mt-6">Professional Hockeys Club</h1>
+      <p class="font-medium lg:text-[16px] text-sm text-[#13131899] lg:mt-6">Dit amet consectetur. Condimentum<br class="lg:hidden"> dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+    </div>
+    <hr class=" border-t-[#13131833] border-dashed mx-5 lg:mx-[135px] lg:mt-8 mt-6">
+
+  </section>
+  <!-- -------------------------------------------- -->
+  <section class="lg:mt-100px] mt-10 lg:flex mx-5 lg:mx-[135px] text-center lg:gap-10">
+    <!-- ---------------redial -->
+    <div class="">
+      <div class="radial-progress  text-2xl text-[#FF4240] font-extrabold  rotate-[130deg]" style="--value:85;  " role="progressbar"><span class="text-blak  rotate-[-130deg]">87%</span></div>
+
+      <h1 class="text-2xl font-extrabold mt-4">Player Facility</h1>
+      <p class="text-[16px] font-medium mt-[12px] text-[#13131899]">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+    </div>
+    <!-- ---------------redial -->
+    <div class="">
+      <div class="radial-progress  text-2xl text-[#49D293] font-extrabold  rotate-[130deg]" style="--value:87;  " role="progressbar"><span class="text-blak  rotate-[-130deg]">95%</span></div>
+
+      <h1 class="text-2xl font-extrabold mt-4">Experienced Coach</h1>
+      <p class="text-[16px] font-medium mt-[12px] text-[#13131899]">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+    </div>
+
+    
+    <!-- ---------------redial 3-- -->
+    <div class="">
+      <div class="radial-progress  text-2xl text-[#FFB546] font-extrabold  rotate-[145deg]" style="--value:87;  " role="progressbar"><span class="text-blak  rotate-[-145deg]">90%</span></div>
+
+      <h1 class="text-2xl font-extrabold mt-4">Senior Player</h1>
+      <p class="text-[16px] font-medium mt-[12px] text-[#13131899]">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+    </div>
+    <!-- ---------------redial -->
+    <div class="">
+      <div class="radial-progress  text-2xl text-[#4C8DF1] font-extrabold  rotate-[145deg]" style="--value:82;  " role="progressbar"><span class="text-blak  rotate-[-145deg]">80%</span></div>
+
+      <h1 class="text-2xl font-extrabold mt-4">Player Facility</h1>
+      <p class="text-[16px] font-medium mt-[12px] text-[#13131899]">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+    </div>
+  </section>
+  <!-- ----------3333333----------h -->
+  <section class="lg:mt-[100px] mt-10 text-center">
+    <hr class=" border-t-[#13131833] border-dashed mx-5 lg:mx-[135px]">
+    <div class="ml-[42px]">
+      <h1 class="text-[#131318] lg:first:text-4xl font-extrabold lg:mt-[32.5px] text-[22px] mt-6">Program Sections</h1>
+      <p class="font-medium lg:text-[16px] text-sm text-[#13131899] lg:mt-6">Dit amet consectetur. Condimentum<br class="lg:hidden"> dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+    </div>
+    <hr class=" border-t-[#13131833] border-dashed mx-5 lg:mx-[135px] lg:mt-8 mt-6">
+
+  </section>
+  <!-- ---------------------- -->
+   
+  <section class="lg:grid lg:grid-cols-2 lg:gap-6 mt-6 lg:mt-12 mx-5 lg:mx-[135px] ">
+   <div class="bg-[url('Images/2.png')] w-[335px] h-[244px] lg:w-auto lg:bg-no-repeat lg:h-[338px] rounded-xl lg:rounded-2xl ">
+
+    <div class="bg-[#13131880] w-full h-full lg:pl-10 pl-6 rounded-xl lg:rounded-2xl lg:pt-24 pt-6 ">
+      <h1 class="text-xl text-white text-[28px] font-extrabold ">Junior Program</h1>
+      <p class="text-white lg:mt-4 text-[16px] font-medium mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>  enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla.</p>
+
+      <button class="lg:w-[180px] lg:h-12 w-[150px] h-[41px] bg-reader rounded-[8px] lg:mt-6 text-white font-bold mt-[20px] lg:text-xl text-[18px]">Register Now!</button>
+      
+    </div>
+   </div>
+
+   <div class="bg-[url('Images/2.png')] w-[335px] h-[244px] lg:w-auto lg:bg-no-repeat lg:h-[338px] rounded-xl lg:rounded-2xl mt-6 lg:mt-0">
+
+    <div class="bg-[#13131880] w-full h-full lg:pl-10 pl-6 rounded-xl lg:rounded-2xl lg:pt-24 pt-6 ">
+      <h1 class="text-xl text-white text-[28px] font-extrabold ">Teenager Program</h1>
+      <p class="text-white lg:mt-4 text-[16px] font-medium mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>  enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+
+      <button class="lg:w-[180px] lg:h-12 w-[150px] h-[41px] bg-reader rounded-[8px] lg:mt-6 text-white font-bold mt-[20px] lg:text-xl text-[18px]">Register Now!</button>
+      
+    </div>
+
+    
+ 
+   </div>
+
+   <div class="bg-[url('Images/6.png')] w-[335px] h-[244px] lg:col-span-2 lg:w-[1170px] lg:h-[450px] rounded-xl lg:rounded-2xl mt-6 lg:mt-0">
+
+    <div class="bg-[#13131880] w-full h-full g:pl-10 pl-6 rounded-xl lg:rounded-2xl lg:pt-[207px] pt-6 ">
+      <h1 class="text-xl text-white text-[28px] font-extrabold ">Professional Program</h1>
+      <p class="text-white lg:mt-4 text-[16px] font-medium mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>  enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+
+      <button class="lg:w-[180px] lg:h-12 w-[150px] h-[41px] bg-reader rounded-[8px] lg:mt-6 text-white font-bold mt-[20px] lg:text-xl text-[18px]">Register Now!</button>
+      
+    </div>
+
+   </div>
+    </section>
+    <!-- ------------ -->
+    <section class="lg:mt-[100px] mt-10 text-center">
+      <hr class=" border-t-[#13131833] border-dashed mx-5 lg:mx-[135px]">
+      <div class="ml-[42px]">
+        <h1 class="text-[#131318] lg:first:text-4xl font-extrabold lg:mt-[32.5px] text-[22px] mt-6">Our New Products</h1>
+        <p class="font-medium lg:text-[16px] text-sm text-[#13131899] lg:mt-6">Dit amet consectetur. Condimentum<br class="lg:hidden"> dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+      </div>
+      <hr class=" border-t-[#13131833] border-dashed mx-5 lg:mx-[135px] lg:mt-8 mt-6">
+  
+    </section>
+
+    <!-- --------Cards----- -->
+    <section class="mx-5 lg:mx-[135px]">
+
+      <div class="card shadow-xl ">
+        <div class="lg:flex">
+         
+          <div>  <img src="Images/7.png" alt="Shoes" class="rounded-xl px-10 pt-10 w-72 h-2/4" ></div>
+    
+          
+          <div class="card-body items-center text-center">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions">
+            
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    
+  
+
+ 
+     
+</body>
+</html>
